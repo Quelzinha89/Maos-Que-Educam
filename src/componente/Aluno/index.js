@@ -6,6 +6,7 @@ import videos from '../../imagens/videos.png'
 import historias from '../../imagens/historia.png'
 import miniDicionario from '../../imagens/dicionario.png'
 import jogos from '../../imagens/jogos.png'
+import { Link } from 'react-router-dom'
 
 function Aluno () {
     return (
@@ -16,7 +17,9 @@ function Aluno () {
             <div className='parteSuperior'>
                 <img className='imgMulher' src= {destaqueVideo} alt='Mulher sinalizando'/>
                 <div className='cards'>
-                    <Card texto='Vídeos' texto2='Aprendendo a ler' img={videos}/>
+                    <Link to="/aluno/videos" style={{ textDecoration: 'none' }}>
+                        <Card texto='Vídeos' texto2='Aprendendo a ler' img={videos}/>
+                    </Link>
                     <Card texto='Mini Dicionário' texto2='Vocabulário' img={miniDicionario}/>
                     <Card texto='Historinhas em Libras' texto2='Primeira leitura' img={historias}/>
                     <Card texto='Jogos' texto2='Em breve' img={jogos}/>

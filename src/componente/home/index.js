@@ -17,13 +17,13 @@ function Home () {
             <div className='painel'>
                 <div className='professor'>
                     <img src={vector} alt='Professor'/>
-                    <Link to="/professor">
+                    <Link to="/professor" style={{ textDecoration: 'none' }}>
                           <Botao texto='Professor'/>
                     </Link>
                 </div>
                 <div className='aluno'>
                     <img src={ouvido} alt='Aluno'/>
-                    <Link to="/aluno">
+                    <Link to="/aluno" style={{ textDecoration: 'none' }}>
                         <Botao texto='Aluno' />
                     </Link>
                 </div>

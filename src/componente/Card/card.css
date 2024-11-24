@@ -16,19 +16,19 @@
 .card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
-.textos {
+.textosCard {
     display: flex;
     flex-direction: column;
     width: 100%;
 }
-.textos h1 {
+.cardh1 {
     margin-left: 0.25rem;
     color: black;
     font-size: 1.25rem;
     padding: 0 0;
     text-align: left;
 }
-.textos small {
+.textosCard small {
     margin-left: 0.25rem;
     color: black;
     text-align: center;
