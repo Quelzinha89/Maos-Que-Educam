@@ -22,11 +22,11 @@ const Videos = () => {
                 <h1>Vídeos</h1>
             </div>
             <div className='videoCards'>
-                <VideoCard texto='Animais' img={animais}></VideoCard>
-                <VideoCard texto='Emoções' img={emocoes}></VideoCard>
-                <VideoCard texto='Família' img={familia}></VideoCard>
-                <VideoCard texto='Objetos' img={objetos}></VideoCard>
-                <VideoCard texto='Escola' img={escola}></VideoCard>
+                <VideoCard texto='Animais' img={animais} tipo='animais'></VideoCard>
+                <VideoCard texto='Emoções' img={emocoes} tipo='emocoes'></VideoCard>
+                <VideoCard texto='Família' img={familia} tipo='familia'></VideoCard>
+                <VideoCard texto='Objetos' img={objetos} tipo='objeto'></VideoCard>
+                <VideoCard texto='Escola' img={escola} tipo='escola'></VideoCard>
             </div>
         </div>
     )

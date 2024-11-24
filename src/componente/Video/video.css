@@ -24,3 +24,17 @@
     height: 3.5rem;
     background-color: black;
 }
+.videoAluno {
+    padding: 10rem;
+    display: flex;
+    width: 50rem;
+    height: 25rem;
+    padding-left: 30%;
+}
+.videoAlunoPlaceholder {
+    padding: 10rem;
+    display: flex;
+    width: 50rem;
+    height: 25rem;
+    padding-left: 30%;
+}
