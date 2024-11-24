@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import logoMenor from '../../imagens/logo-menor.png'
 import Botao from '../Botao'
 import './header.css'
@@ -7,8 +8,12 @@ const Header = () => {
         <header className='cabecalho'>
             <img src= {logoMenor} className='logo' alt='Logo menor Mãos que educam'/>
             <div className='menu'>
-                <Botao texto='Início'/>
-                <Botao texto='Vídeo'/>
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                    <Botao texto='Início'/>
+                </Link>
+                <Link to="/aluno/videos" style={{ textDecoration: 'none' }}>
+                    <Botao texto='Vídeos'/>
+                </Link>
                 <Botao texto='Dicionário'/>
             </div>
         </header>
