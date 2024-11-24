@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    height: 100vh;
+    min-height: 100vh;
 }
 
 .ladoEsquerdo {
@@ -69,4 +69,131 @@ h1 {
     padding-bottom: 5rem;
     padding-right: 20rem;
     margin-top: 0;
+}
+
+
+@media (max-width: 768px) {
+
+    .home  .logo {
+        max-width: 60%;
+        align-self: center;
+        margin: -36px 0 0 0;
+        padding: 0;
+        order:1;
+    }
+
+    .home {
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .home h1 {
+        padding-bottom: 0rem;
+        padding-right: 0rem;
+        order:2;
+    }
+
+    .ladoEsquerdo {
+        padding-left: 0rem;
+        ddisplay: flex;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: -2rem;
+    }
+
+    .ladoEsquerdo img {
+        width:60%;
+    }
+
+    
+    .painel {
+        margin-bottom: 1rem;
+        width: 100%;
+        justify-content: space-around;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+        margin-top: 2rem;
+        flex-direction: row;
+        order:3;
+    }
+
+    .professor {
+        padding-right: 0rem;
+    }
+
+    .professor img {
+        max-width: 60%;
+    }
+
+    .aluno {
+        
+    }
+
+    .aluno img {
+        max-width: 60%;
+    }
+   
+}
+  
+  
+@media (max-width: 480px) {
+
+    .home  .logo {
+        max-width: 60%;
+        align-self: center;
+        margin: -36px 0 0 0;
+        padding: 0;
+        order:1;
+    }
+
+    .home {
+        flex-direction: column;
+        min-height: 100vh;
+    }
+
+    .home h1 {
+        padding-bottom: 0rem;
+        padding-right: 0rem;
+        order:2;
+    }
+
+    .ladoEsquerdo {
+        padding-left: 0rem;
+        ddisplay: flex;
+        justify-content: center;
+        overflow: hidden;
+        margin-top: -2rem;
+    }
+
+    .ladoEsquerdo img {
+        width:60%;
+    }
+
+    .painel {
+        margin-bottom: 1rem;
+        width: 100%;
+        justify-content: space-around;
+        padding-right: 0rem;
+        padding-bottom: 0rem;
+        margin-top: 2rem;
+        flex-direction: row;
+        order:3;
+    }
+
+    .professor {
+        padding-right: 0rem;
+    }
+
+    .professor img {
+        max-width: 60%;
+    }
+
+    .aluno {
+        
+    }
+
+    .aluno img {
+        max-width: 60%;
+    }
+    
 }

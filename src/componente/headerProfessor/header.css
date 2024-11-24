@@ -1,4 +1,4 @@
-.cabecalho {
+.cabecalhoProfessor {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -24,7 +24,7 @@
  
   /* Media Query para telas menores (tablets e celulares) */
   @media (max-width: 768px) {
-    .cabecalho {
+    .cabecalhoProfessor {
       flex-direction: column;
       align-items: flex-start;
     }
@@ -55,7 +55,7 @@
   
   /* Media Query para telas muito pequenas (celulares em modo retrato) */
   @media (max-width: 480px) {
-    .cabecalho {
+    .cabecalhoProfessor {
       padding: 0rem;
     }
   
