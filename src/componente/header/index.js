@@ -15,6 +15,9 @@ const Header = () => {
                     <Botao texto='Vídeos'/>
                 </Link>
                 <Botao texto='Dicionário'/>
+                <Link to= "/empregabilidade" style={{ textDecoration: 'none' }} >
+                        <Botao texto='Empregabilidade'/>
+                </Link>
             </div>
         </header>
     )
