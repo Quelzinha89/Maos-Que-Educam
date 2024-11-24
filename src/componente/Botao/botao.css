@@ -1,0 +1,18 @@
+.botao {
+    display:flex;
+    width: 6.25rem;
+    height: 2.5rem;
+    padding: 0.75rem 1.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    flex-shrink: 0;
+    border-radius: 20px;
+    color: #FFFFFF;
+    background: linear-gradient(104deg, #757575 42.23%, #DBDBDB 117.38%);
+    box-shadow: 0px 4px 8px 0px rgba(255, 255, 255, 0.40);
+}
+
+.botao:hover {
+    color: #000000;
+}
