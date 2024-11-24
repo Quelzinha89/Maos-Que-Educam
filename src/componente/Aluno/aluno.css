@@ -1,0 +1,7 @@
+.cards img{
+    width: 145px;
+    height: 145px;
+    flex-shrink: 0;
+    flex-direction: row;
+    
+}

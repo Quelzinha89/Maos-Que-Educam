@@ -4,7 +4,7 @@ import homemSinalizando from '../../imagens/homem-sinalizando.png'
 import ouvido from '../../imagens/ouvido-icon.svg'
 import vector from '../../imagens/Vector.png'
 import Botao from '../Botao'
-
+import { Link } from 'react-router-dom'
 
 function Home () {
     return (
@@ -21,7 +21,9 @@ function Home () {
                 </div>
                 <div className='aluno'>
                     <img src={ouvido} alt='Aluno'/>
-                    <Botao texto='Aluno'/>
+                    <Link to="/aluno">
+                        <Botao texto='Aluno' />
+                    </Link>
                 </div>
             </div>
             <h1 className='texto'>
