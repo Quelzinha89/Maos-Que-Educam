@@ -12,10 +12,21 @@ function Professor() {
       <h1 className="titulo-principal">Material do Professor</h1>
 
       <div className="secao-conteudo">
-        <video controls className="video">
+        {/* <video controls className="video">
           <source src="video.mp4" type="video/mp4" />
           Seu navegador não suporta o vídeo.
-        </video>
+        </video> */}
+
+        <iframe 
+          width="560" 
+          height="315" 
+          src="https://www.youtube.com/embed/YYh7ErTuYcw?si=O41igLGAFuiFM_p4" 
+          title="YouTube video player" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerPolicy="strict-origin-when-cross-origin" 
+          allowFullScreen
+        ></iframe>
 
         <h2 className="titulo-secao">Dicas para ensinar uma criança surda a ler</h2>
 
