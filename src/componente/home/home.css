@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates');
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+.ladoEsquerdo {
+    padding-left: 5rem;
+    display: flex;
+    justify-content: end;
+}
+
+.ladoDireito {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.logo {
+    max-width: 100%;
+    align-self: flex-end;
+    padding-top: 1.25rem;
+}
+.painel {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+    padding-right: 20rem;
+    padding-bottom: 10rem;
+}
+
+.professor {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-right: 5rem;
+    align-items: center;
+}
+
+.aluno {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+}
+
+.professor img{
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 2rem;
+}
+
+.aluno img{
+    max-width: 100%;
+    align-self: center;
+    padding-bottom: 2rem;
+}
+
+h1 {
+    color: #FFF;
+    font-family: "Montserrat Alternates";
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; 
+    text-align: center;
+    padding-bottom: 5rem;
+    padding-right: 20rem;
+    margin-top: 0;
+}
