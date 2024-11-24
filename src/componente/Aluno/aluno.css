@@ -1,7 +1,41 @@
-.cards img{
-    width: 145px;
-    height: 145px;
-    flex-shrink: 0;
+.paginaAluno{
+    background: #D9D9D9;
+}
+.corpoDaPagina {
+    margin-top: 7.5rem;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.parteSuperior {
+    display: flex;
     flex-direction: row;
-    
+    justify-content: space-evenly;
+}
+.imgMulher{
+    object-fit: cover;
+    border: 0.1rem solid #000000;
+    padding-bottom: 0;
+}
+.cards {
+    display: flex;
+    flex-direction: column;
+}
+.parteInferior {
+    width: 100%;
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.parteInferior h1{
+    width: 100%;
+    color: #000000;
+}
+
+.parteInferior iframe{
+    width: 50rem;
+    height: 25rem;
+    padding-left: 30%;
 }
