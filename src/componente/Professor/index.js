@@ -1,13 +1,13 @@
 import React from "react";
 import "./professor.css"; 
-import Header from '../header';
+import HeaderProfessor from '../headerProfessor';
 import cursoDeLibras from '../../imagens/cursoDeLibras.svg';
 import materialDeApoio from '../../imagens/material de apoio escolar.svg';
 
 function Professor() {
   return (
     <div className="container">
-      <Header/>
+         <HeaderProfessor/>
      
       <h1 className="titulo-principal">Material do Professor</h1>
 
@@ -39,9 +39,9 @@ function Professor() {
               className="imagem-cartao"
             />
             <h3 className="titulo-cartao">Material de Apoio</h3>
-             <p className="descricao-cartao">
-             Documentos
-             </p>
+            <a href="https://drive.google.com/file/d/1a8nm-Mht8jcZaWXYpUnt2z3xEj74b5tg/view" className="descricao-cartao" target="_blank" rel="noopener noreferrer">
+      Documentos
+    </a>
           </div>
         </div>
       </div>

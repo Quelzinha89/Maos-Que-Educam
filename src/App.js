@@ -5,7 +5,7 @@ import Aluno from './componente/Aluno';
 import Videos from './componente/Videos';
 import Video from './componente/Video';
 import Professor from './componente/Professor';
-// import ProfessorCurso from './componente/ProfessorCurso';
+import ProfessorCurso from './componente/ProfessorCurso';
 
 import { Routes, Route }from 'react-router-dom'
 
@@ -27,7 +27,7 @@ function App() {
         <Route path='/aluno/videos'element={ <Videos/> }/>
         <Route path='/professor'element={ <Professor/> }/>
         <Route path='/aluno/videos/:tipo'element={ <Video/> }/>
-        {/* <Route path='/professorCurso'element={ <ProfessorCurso/> }/> */}
+        <Route path='/professorCurso'element={ <ProfessorCurso/> }/>
       </Routes>
     </div>
   );
