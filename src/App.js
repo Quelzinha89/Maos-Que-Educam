@@ -6,7 +6,6 @@ import Videos from './componente/Videos';
 import Video from './componente/Video';
 import Professor from './componente/Professor';
 import ProfessorCurso from './componente/ProfessorCurso';
-
 import { Routes, Route }from 'react-router-dom'
 
 
