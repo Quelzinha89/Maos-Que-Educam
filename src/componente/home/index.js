@@ -17,7 +17,9 @@ function Home () {
             <div className='painel'>
                 <div className='professor'>
                     <img src={vector} alt='Professor'/>
-                    <Botao texto='Professor'/>
+                    <Link to="/professor">
+                          <Botao texto='Professor'/>
+                    </Link>
                 </div>
                 <div className='aluno'>
                     <img src={ouvido} alt='Aluno'/>
