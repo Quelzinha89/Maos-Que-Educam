@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates');
-.home {
+/* .home {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -69,7 +69,77 @@ h1 {
     padding-bottom: 5rem;
     padding-right: 20rem;
     margin-top: 0;
+} */
+
+
+.home {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 0rem;
+    gap: 2rem; /* Adiciona espaçamento entre as colunas */
 }
+
+.ladoEsquerdo {
+    flex: 1; /* Permite que o lado esquerdo use espaço proporcional */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ladoEsquerdo img {
+    width: 80%; /* Limita o tamanho da imagem */
+    max-width: 400px; /* Tamanho máximo */
+}
+
+.ladoDireito {
+    flex: 1; /* Permite que o lado direito use espaço proporcional */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem; /* Espaçamento entre os elementos */
+}
+
+.logo {
+    width: 60%; /* Reduz a largura para desktops */
+    max-width: 300px;
+    margin-bottom: 2rem;
+}
+
+.painel {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 2rem; /* Espaçamento entre as colunas */
+    width: 100%; /* Ocupa o espaço disponível */
+}
+
+.professor, .aluno {
+    display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+}
+
+.professor img, .aluno img {
+    width: 100px; /* Define tamanho fixo para os ícones */
+    height: auto;
+}
+
+h1.texto {
+    color: #FFF;
+    font-family: "Montserrat Alternates", sans-serif;
+    font-size: 2rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
 
 
 @media (max-width: 768px) {
