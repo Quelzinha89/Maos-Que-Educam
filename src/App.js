@@ -7,7 +7,8 @@ import Video from './componente/Video';
 import Empregabilidade from './componente/Empregabilidade';
 import Professor from './componente/Professor';
 import ProfessorCurso from './componente/ProfessorCurso';
-import { Routes, Route }from 'react-router-dom'
+import { Routes, Route }from 'react-router-dom';
+import ReactVLibras from 'react-vlibras-plugin';
 
 
 
@@ -21,6 +22,7 @@ const divStyle = {
 function App() {
   return (
     <div style={divStyle}>
+      <ReactVLibras avatar="guga" />
       <Routes>
         <Route path='/'element={ <Home/> }/>
         <Route path='/aluno'element={ <Aluno/> }/>
