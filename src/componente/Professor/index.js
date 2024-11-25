@@ -3,6 +3,7 @@ import "./professor.css";
 import HeaderProfessor from '../headerProfessor';
 import cursoDeLibras from '../../imagens/cursoDeLibras.svg';
 import materialDeApoio from '../../imagens/material de apoio escolar.svg';
+import { Link } from "react-router-dom";
 
 function Professor() {
   return (
@@ -38,9 +39,10 @@ function Professor() {
               className="imagem-cartao"
             />
             <h3 className="titulo-cartao">Cursos de Libras</h3>
-             <p className="descricao-cartao">
+             {/* <p className="descricao-cartao">
              Aprendendo Libras
-             </p>
+             </p> */}
+             <Link to="/professorCurso" className="descricao-cartao">Aprendendo Libras</Link>
           </div>
 
           <div className="cartao">

@@ -14,7 +14,13 @@ const Header = () => {
                 <Link to="/aluno/videos" style={{ textDecoration: 'none' }}>
                     <Botao texto='Vídeos'/>
                 </Link>
-                <Botao texto='Dicionário'/>
+                <a 
+                    href="https://drive.google.com/file/d/12ISmQZjWTttM-KkhSyb6VOfZ-FROLR-O/view" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
+                    <Botao texto="Dicionário" />
+                </a>
                 <Link to= "/empregabilidade" style={{ textDecoration: 'none' }} >
                         <Botao texto='Empregabilidade'/>
                 </Link>

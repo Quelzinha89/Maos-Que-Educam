@@ -14,9 +14,13 @@ const HeaderProfessor = () => {
                 <Link to="/professorCurso">
                     <Botao texto="Curso" />
                 </Link>
-                <Link to="/dicionario">
+                <a 
+                    href="https://drive.google.com/file/d/12ISmQZjWTttM-KkhSyb6VOfZ-FROLR-O/view" 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                >
                     <Botao texto="Dicionário" />
-                </Link>
+                </a>
             </div>
         </header>
     );
